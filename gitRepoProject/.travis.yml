@@ -1,13 +1,3 @@
-# To build the ACS Layers pipeline, trigger a custom build in Travis
-# and copy/paste and edit the following into the custom config text area.
-
-#  env: PIPELINE_ENABLED='true' TCG_API_EMAIL='zach@lightbulbmachine.com' TCG_API_PASSWORD='jegeqyq2a9sq3fban' TCG_API_URL='https://wacoroundtable.org/api' TCG_ENV='Waco' TCG_YEARS='["2017","2018"]' TCG_INDICATORS='["percent_no_diploma","percent_diploma"]'
-
-# Valid indicator names for TCG_INDICATORS (optional) can be found in /code/pipeline/mainline/indicator_definitions.py in the variable 'all_indicator_lookup'
-# Valid strings for TCG_ENV are 'OKC', 'Memphis', and 'Waco'.
-# Valid strings for TCG_API_URL are 'https://staging.roundtable.city/api', 'https://wacoroundtable.org/api'
-
-
 language: python
 python:
   - "3.7"
