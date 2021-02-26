@@ -14,4 +14,4 @@ python:
 
 
 script:
-  python3 main.py
+  ./run.sh
